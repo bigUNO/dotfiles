@@ -5,6 +5,9 @@ if [ -f $HOME/.zshrc.local ]; then
   source $HOME/.zshrc.local
 fi
 
+if [ "$OSTYPE"="darwin15.0" ]; then
+  antigen-bundle osx
+fi
 # Load various lib files
 antigen use oh-my-zsh
 
