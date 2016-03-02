@@ -29,7 +29,6 @@ antigen bundle Tarrasch/zsh-autoenv
 
 # For SSH, starting ssh-agent is annoying
 antigen bundle ssh-agent
-antigen bundle osx
 
 antigen bundle biguno/dotfiles
 
