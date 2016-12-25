@@ -33,3 +33,6 @@ antigen bundle ssh-agent
 antigen bundle biguno/dotfiles
 
 antigen apply
+
+export GOPATH=$HOME
+export PATH=$PATH:$GOPATH/bin
