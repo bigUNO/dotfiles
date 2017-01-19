@@ -34,5 +34,6 @@ antigen bundle biguno/dotfiles
 
 antigen apply
 
-export GOPATH=/Users/ddcleonj/git/bullshit_go/work/src/
+export GOPATH=/Users/ddcleonj/git/bullshit_go/
+export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH/bin
