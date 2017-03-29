@@ -33,7 +33,7 @@ antigen bundle ssh-agent
 antigen bundle biguno/dotfiles
 
 antigen apply
-
+export HOMEBIN=~/bin
 export GOPATH=/Users/ddcleonj/git/bullshit_go/
 export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOPATH/bin:$HOMEBIN
