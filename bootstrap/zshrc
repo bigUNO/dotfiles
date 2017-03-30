@@ -34,6 +34,9 @@ antigen bundle ssh-agent
 antigen bundle biguno/dotfiles
 
 antigen apply
+
+HISTSIZE=SAVEHIST=100000
+
 export HOMEBIN=~/bin
 export GOPATH=/Users/ddcleonj/git/bullshit_go/
 export GOBIN=$GOPATH/bin
